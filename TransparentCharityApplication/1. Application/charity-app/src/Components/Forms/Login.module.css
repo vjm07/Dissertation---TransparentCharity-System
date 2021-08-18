@@ -1,0 +1,8 @@
+.header2, .notice {
+	text-align: center;
+}
+
+.notice {
+	color: red;
+	font-size: small;
+}

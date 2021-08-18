@@ -1,0 +1,64 @@
+.transactionDetails {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.highlight {
+	background-color: rgba(255, 255, 255, 0.029);
+	box-shadow: 0 0 5px 10px rgba(247, 247, 247, 0.029);
+}
+
+.sender {
+	margin: 0 0 0.25rem 0;
+	font-style: italic;
+	color: rgb(0, 0, 139);
+}
+
+.receiver {
+	font-weight: 900;
+	color: white;
+}
+
+.amount {
+	margin-top: 0.25rem;
+	font-weight: bold;
+	color: #02c0fa;
+	font-size: 1.25rem;
+	background-color: black;
+	min-width: 80px;
+	max-width: 150px;
+	border-radius: 25%;
+	transform: translateY(2px)
+}
+.amount p {
+	transform: translateY(7px)
+}
+
+@media all and (max-width: 580px) {
+	.transactionDetails div p{
+		transform: translateY(-20px);
+	}
+	.amount {
+		transform: translateY(-35px);
+		background-color: rgba(255, 255, 255, 0);
+		color: black;
+	}
+
+	.transactionDetails {
+		border-bottom: none;
+	}
+	.transactionDetails p{
+		transform: translateY(-30px) !important;
+	}
+	.amount p, .sender, .receiver {
+
+		font-size: small;
+	}
+	.amount p {
+		transform: translateY(20px) !important;
+	}
+
+  }

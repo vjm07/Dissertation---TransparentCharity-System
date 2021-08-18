@@ -1,0 +1,74 @@
+.charity_controls {
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	border-radius: 25px;
+	display: inline-block;
+	max-width: 924px;
+}
+
+.buttons{
+	width: 15vw;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	max-width: 239px;
+	max-height: 385px;
+}
+
+.info_box {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	width: 70%;
+	height: auto;
+	font-weight: bolder;
+	padding-left: 5%;
+}
+
+.highlighted_text {
+	color: azure;
+}
+
+@media all and (max-width: 900px) {
+	.charity_controls {
+		width:90%;
+	}
+	.buttons{
+		margin-right: 20px;
+	}
+}
+
+@media all and (max-width: 580px) {
+	.charity_controls {
+		margin: auto;
+		width: 100%;
+		padding: 00px;
+		margin-bottom: -5px;
+		margin-top: 7vh;
+		border-radius: 0px;
+		display: inline-block;
+	}
+	.buttons{
+		float: none;
+		display: block;
+		width: 120%;
+		margin: 0;
+		transform: translateX(-25px);
+		max-width: none;
+	}
+	.info_box {
+		margin-bottom: 20px;
+		float: none;
+		width: 100%;
+		height: auto;
+		font-weight:lighter;
+		padding: 0;
+	}	
+}
+
+@media all and (min-width: 580px) and (max-width: 1300px){
+	.buttons{
+		margin-top: 1%;
+	}
+}

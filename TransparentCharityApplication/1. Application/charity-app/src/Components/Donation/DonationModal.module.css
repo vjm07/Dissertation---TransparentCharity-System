@@ -1,0 +1,33 @@
+.notificationHeaderSuccess {
+
+	color:blue;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.notificationHeaderFail{
+	color:red;
+	font-weight: bolder;
+	text-align: center;
+
+}
+.notice {
+	text-align: center;
+	font-size: small;
+	border-bottom: solid hotpink;
+	border-right: solid hotpink ;
+	border-radius: 9px;
+	box-shadow: 5px 3px #9b9a9a7e;
+	background-color: rgba(166, 170, 173, 0.089);
+
+}
+.header {
+	text-align: center;
+}
+.form-actions {
+	text-align: right;
+  }
+  
+  .form-actions button {
+	margin-left: 1rem;
+  }

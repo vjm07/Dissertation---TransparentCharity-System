@@ -1,0 +1,62 @@
+.button {
+	cursor: pointer;
+	font: inherit;
+	border: none;
+	background-color: #1ebbeb;
+	margin: 1rem;
+	padding: 1rem 3rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 25px;
+	font-weight: bold;
+	width: 200px;
+	max-width: 100%;
+	box-shadow: 5px 3px 6px rgba(112, 109, 109, 0.63);
+	transition: 200ms all ease;
+	transition: background-color tranform;
+}
+
+.button:hover,
+.button:active {
+background-color: #f312129d;
+transform: translateX(3px) translateY(3px);
+}
+
+.button:hover .badge,
+.button:active .badge {
+background-color: #92320c;
+}
+
+.label {
+	color:white;
+}
+
+@media all and (max-width: 580px) {
+
+	.button {
+		width: 115vw !important;
+		height: 40px;
+		border-radius: 0px;
+		border-color: black;
+		border-style: solid;
+		border-width: 1px;
+		margin: auto;
+		margin-bottom: 0;
+		margin: auto;
+		padding: 0;
+		transform: translateX(10px);
+		max-height: 7vh;
+	}
+	.label {
+		text-align: right !important;
+	}
+}
+
+@media all and (min-width: 580px) and (max-width: 1300px){
+	.button {
+		max-height: 10vh;
+		border-radius: 15px;
+	}
+
+}

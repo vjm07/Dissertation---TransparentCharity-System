@@ -1,0 +1,57 @@
+
+.padding {
+  margin-top: 0;
+  
+}
+
+.load_pic {
+  position: absolute;
+  margin-left: 47.9vw;
+  margin-top: 8vh;
+  z-index: 995;
+}
+
+.charity_controls {
+  background-color: rgba(255, 250, 250, 0.445);
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+	border-radius: 25px;
+  margin-bottom: 20px;
+  box-shadow: 5px 3px 6px rgba(7, 7, 7, 0.63);
+}
+
+.fill {
+  height: 26vh;
+  max-height: 240px;
+}
+
+.charity_controls {
+	max-width: 1200px;
+}
+
+@media all and (max-width: 580px) {
+  .padding {
+    margin-top: 8vh;
+  }
+
+  .App {
+    text-align: center;
+    background-color: rgb(161, 160, 160);
+    padding-bottom: 5%;
+    overflow: hidden;
+  }
+
+  .fill {
+  height: 21vh;
+}
+
+}
+
+
+@media all and (max-width: 900px){
+  .charity_controls {
+    width: 100%;
+  }
+}
+

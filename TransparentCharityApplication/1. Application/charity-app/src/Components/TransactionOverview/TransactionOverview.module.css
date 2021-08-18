@@ -1,0 +1,13 @@
+.overview_backgrop {
+	padding: 1rem;
+	box-shadow: 0 2px 8px rgba(0, 162, 255, 0.596);
+	border-radius: 15px;
+	background-color: rgba(131, 204, 238, 0.308);
+	margin-top: 2.5%;
+  }
+
+  @media all and (max-width: 580px) {
+	.overview_backgrop {
+		font-size: small;
+	}
+  }

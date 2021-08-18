@@ -1,0 +1,117 @@
+.beneficiary {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid rgb(247, 243, 243);
+}
+
+.header_bar {
+	position: relative;
+	width: 100%;
+	min-width: 300px;
+	height: 50px;
+}
+
+.beneficiary_header {
+	display: inline-flex;
+	padding: 14px;
+	margin-left: 2px;
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	transition: 0.3s ease all;
+	user-select: none;
+	margin: 0.1 0.1 0.26rem 0.1;
+	color: black;
+	text-align: left;
+	text-align: center;
+	margin: 0;
+	padding: 5px, 5px, 5px, 5px;
+	text-align: center;
+	min-width: 100% !important;
+}
+
+.beneficiary_header:hover {
+	color: rgb(255, 0, 0);
+	box-shadow: 0 50px 5px 5px rgba(95, 93, 93, 0.342) inset;
+	border-radius: 5px;
+	margin: 2px;
+	border-top: solid rgba(56, 54, 54, 0.596);
+	border-left: solid rgba(0, 0, 0, 0.712);
+	border-width: 3px;
+	border-radius: 9px;
+}
+
+.email {
+	text-align: center;
+	font-size: small;
+	border-radius: 5px;
+	box-shadow: 5px 3px #9b9a9a18;
+	background-color: rgba(166, 170, 173, 0.089);
+	cursor:copy;
+	transition: 0.3s ease all;
+}
+
+.email:hover {
+	background-color: #888888;
+	transform: translateY(2px) translateX(1px);
+	border-top: solid rgba(56, 54, 54, 0.596);
+	border-left: solid rgba(0, 0, 0, 0.712) ;
+	color: white;
+}
+
+.email p {
+	margin: 0;
+}
+
+.email p :hover {
+	margin: 0;
+}
+
+.notification {
+	color: rgb(255, 255, 255);
+}
+
+.number {
+	margin-top: 0.26rem;
+	font-weight:bold;
+	color: #fbff07;
+	font-size: 1.25rem;
+}
+
+@media all and (max-width: 580px) {
+	.beneficiary_header {
+		font-size: small;
+		padding: 5px;
+		padding-left: 1px;
+		margin: 0%;
+		width: 95%;
+	}
+
+	.header_bar {
+		position: relative;
+		width: 20%;
+		min-width: 250px;
+		height: 30px;
+	}
+
+	.number {
+		margin-top: 0.26rem;
+		font-weight:normal;
+		font-size: small;
+		color: #fbff07;
+	}
+
+	.email {
+		font-weight: lighter;
+		cursor: copy;
+		border: solid red;
+		border-radius: 25px;
+		background-color: aliceblue;
+		border-width: 1px;
+		box-shadow: 5px 6px #888888;
+		font-size: small;
+		max-height: 18px;
+	}
+}

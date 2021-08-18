@@ -1,0 +1,13 @@
+.header {
+	text-align: center;
+}
+
+.notice {
+	text-align: center;
+	border-bottom: solid hotpink;
+	border-right: solid hotpink ;
+	border-radius: 9px;
+	box-shadow: 5px 3px #9b9a9a7e;
+	background-color: rgba(166, 170, 173, 0.089);
+
+}

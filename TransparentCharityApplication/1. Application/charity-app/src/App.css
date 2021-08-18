@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  /*background-image: url("./Components/pictures/bg.jpeg");*/ 
+  padding-bottom: 5%;
+  overflow: hidden;
+  background-color: #cecece;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.information_box {
+  height: 15rem;
+}
+
+.load_pic {
+  position: absolute;
+  margin-left: 47.9vw;
+  margin-top: 8vh;
+  z-index: 995;
+}
+
+@media all and (max-width: 580px) {
+  .information_box {
+    height: 7rem;
+  }
+}
